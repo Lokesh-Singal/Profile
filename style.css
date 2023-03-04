@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    color: #182153;
+}
+
+
+/* Header */
+header,
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    height: 70px;
+}
+
+.head {
+    font-size: 33px;
+    margin-left: 40px;
+}
+
+.navbar {
+    margin-right: 40px;
+}
+
+.head-nav {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.head-nav a {
+    text-decoration: none;
+    color: #182153;
+}
+
+
+/* Section1: Me */
+.me {
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.me-front {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.me-right,
+.me-left {
+    height: 500px;
+    width: 50%;
+    background-color: white;
+}
+
+.me-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.me-head {
+    font-size: 30px;
+}
+
+.me-left,
+.me-right {
+    margin-top: 145px;
+}
+
+.me-lowerhead,
+.up {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.down {
+    font-size: 15px;
+}
+
+.me-head,
+.up {
+    margin-bottom: 2px;
+}
+
+.one {
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.upper {
+    margin-top: 90px;
+}
+
+
+/* Section2 : About */
+.about {
+    width: 100%;
+    background-color: #e3dfdf9e;
+}
+
+.social-links {
+    background-color: #182153;
+    width: 70%;
+    margin: 3px auto;
+}
+
+.social-bar {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+}
+
+.about-me {
+    width: 46%;
+    margin: auto;
+}
+
+.about-up {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 135px;
+}
+
+.about-down {
+    font-size: 18px;
+    margin-top: 23px;
+    padding-bottom: 15px;
+    line-height: 30px;
+}
+
+
+/* Section3 : Education */
+.education {
+    width: 100%;
+}
+
+.ed-head {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.ed-main {
+    display: flex;
+    width: 74%;
+    margin: 65px auto 0px auto;
+}
+
+.ed-left,
+.ed-right {
+    width: 50%;
+}
+
+.ed-left1 {
+    padding-left: 290px;
+}
+
+.ed-left-up,
+.ed-right-up {
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.ed-right {
+    margin-left: 60px;
+}
+
+.ed-right1,
+.ed-left1 {
+    margin-bottom: 70px;
+}
+
+
+/* Section4 : Skills */
+.skills {
+    width: 100%;
+    background-color: #e3dfdf9e;
+}
+
+.skill-head {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.skill-main {
+    display: flex;
+    width: 74%;
+    margin: 65px auto 0px auto;
+    padding-bottom: 65px;
+}
+
+.skill-right,
+.skill-left {
+    width: 50%;
+}
+
+.skill-left-out,
+.skill-right-out {
+    padding: 45px 0px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.skill-left-in,
+.skill-right-in {
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18;
+}
+
+
+/* Section5 : Projects */
+.projects {
+    width: 100%;
+}
+
+.prj-head {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.prj-main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 74%;
+    margin: 65px auto 0px auto;
+    padding-bottom: 65px;
+}
+
+.prj-left,
+.prj-center,
+.prj-right {
+    border: 1px solid #182153;
+    width: 25%;
+    height: 200px;
+}
+
+
+/* Section6 : Contact */
+.contact {
+    width: 100%;
+    background-color: #e3dfdf9e;
+}
+
+.contact-head {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.contact-main {
+    display: flex;
+    width: 74%;
+    margin: 65px auto 0px auto;
+    padding-bottom: 65px;
+}
+
+.contact-left,
+.contact-right {
+    width: 50%;
+}
+
+.cnt-head {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cnt-up {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cnt-down {
+    font-size: 15px;
+}
+
+.cnt-head,
+.cnt-up {
+    margin-bottom: 2px;
+}
+
+.two {
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.dwnr {
+    margin-bottom: 100px;
+}
+
+.contact-hr {
+    width: 55%;
+    margin-left: 90px;
+}
+
+.contact-social-bar {
+    display: flex;
+    width: 30%;
+    margin: 20px 90px 70px 90px;
+    justify-content: space-between;
+}
+
+.contact-left iframe {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Footer */
+.footer{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+}
